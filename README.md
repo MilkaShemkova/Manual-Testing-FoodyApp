@@ -29,14 +29,14 @@ A Test Flow Diagram illustrating the main user paths covered in the Test Cases (
 
 ```mermaid
 graph TD
-    A[Start / Home Page (UC1)] --> B{Authentication}
-    B -- Log In (UC3) --> C(Logged In Home Page)
-    B -- Sign Up (UC2) --> B
-    
-    C --> D(Profile Management - UC4)
-    C --> E(Food Creation - UC5)
-    C --> F(Food Management - UC6)
-    
-    D --> G(End / Log Out)
-    E --> F
-    F --> G
+A[Start / Home Page (UC1)] --> B{Authentication}
+B -- Log In (UC3) --> C(Logged In Home Page)
+B -- Sign Up (UC2) --> B
+
+C --> D(Profile Management - UC4)
+C --> E(Food Creation - UC5)
+C --> F(Food Management - UC6)
+
+D --> G(End / Log Out)
+E --> F
+F --> G
