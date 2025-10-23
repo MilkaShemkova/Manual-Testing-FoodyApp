@@ -29,7 +29,7 @@ A Test Flow Diagram illustrating the main user paths covered in the Test Cases (
 
 ```mermaid
 graph TD
-Start[Start / Home Page (UC1)] --> B{Authentication}
+Start[Start/Home Page (UC1)] --> B{Authentication}
 B -- Log In (UC3) --> C(Logged In Home Page)
 B -- Sign Up (UC2) --> B
 
