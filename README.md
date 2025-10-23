@@ -25,16 +25,8 @@ A complete Manual Testing project covering critical user flows for an E-commerce
 
 ## 📐 5. Design Diagram
 
-A Test Flow Diagram illustrating the main user paths covered in the Test Cases (Use Cases 1-6), rendered using GitHub's Mermaid support:
-graph TD
-Start[Start / Home Page (UC1)] --> B{Authentication}
-B -- Log In (UC3) --> C(Logged In Home Page)
-B -- Sign Up (UC2) --> B
+* **Artifact:** The Software Testing Life Cycle (STLC) flow diagram illustrating the testing process 
 
-C --> D(Profile Management - UC4)
-C --> E(Food Creation - UC5)
-C --> F(Food Management - UC6)
+## 📸 6. Screenshots
 
-D --> G(End / Log Out)
-E --> F
-F --> G
+* **Artifacts:** The full suite of Test Cases (Use Cases 1-6) and the detailed Bug Report are available as `.csv` files directly in this repository. All relevant screenshots are also included in the repository files for manual review.
